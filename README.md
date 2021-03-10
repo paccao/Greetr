@@ -1,4 +1,5 @@
-# plum-vigilant-framework
+# Greetr
+
 An attempt to make a framework for vanilla js.
 
 # Greetr FEATURES:
@@ -11,16 +12,18 @@ An attempt to make a framework for vanilla js.
 
 ### Support jQuery.
 
-### Easy to type: "PV$()" structure.
-// PV stands for Plum Vigilant
+### Easy to type: "G$()" structure.
 
 ## Project Structure
 
 ### Use code
+
 app.js
 
 ### Framework functionality
-plum-vigilant.js
+
+Greetr.js
 
 ### jQuery v.3.6.0
+
 jquery-3.6.0.js
