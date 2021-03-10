@@ -1,7 +1,7 @@
 # plum-vigilant-framework
 An attempt to make a framework for vanilla js.
 
-## Greetr FEATURES:
+# Greetr FEATURES:
 
 ### When given a first name, last name and optional language, it generates formal and informal greetings.
 
