@@ -32,7 +32,11 @@
     // Any object that is created in the init function gets pointed to the Greetr.prototype prototype chain
     Greetr.init.prototype = Greetr.prototype;
 
-    // Attach my Greetr to my global object.
+
+    // Attach my Greetr to my global object so that I can call my function
+    // from anywhere with an alias for my function
+    // * Exposes Greetr and G$ identifiers
+    global.Greetr = global.G$ = Greetr;
 
 
-}(global, jQuery) );
+}(window, jQuery) );
