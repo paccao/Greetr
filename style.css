@@ -3,8 +3,18 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+body > p {
+  margin-bottom: 5rem;
+  font-size: 1.3rem;
 }
 
 div#logindiv {
@@ -18,13 +28,13 @@ div#logindiv {
 select#lang,
 input#login {
   font-family: "Poppins", serif;
-  padding: 1rem;
   margin: 5px 0;
   cursor: pointer;
 }
 
 select#lang {
   font-size: 3rem;
+  padding: 0.7rem;
 }
 
 select#lang {
@@ -33,5 +43,9 @@ select#lang {
 
 input#login {
   font-size: 2.5rem;
-  color: #25be6a;
+  color: #25be65;
+}
+
+h2#greeting {
+  font-size: 4rem;
 }
