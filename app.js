@@ -1,3 +1,3 @@
-const g = G$("Joel", "Plumppu");
+const g = G$("Joel", "Plumppu", "sv");
 
-console.log(g);
+g.formalGreeting();
