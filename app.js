@@ -1,3 +1,3 @@
 const g = G$("Joel", "Plumppu", "sv");
 
-g.formalGreeting();
+g.outPutGreeting("#greeting", true);
