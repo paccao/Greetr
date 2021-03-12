@@ -99,6 +99,7 @@
             return this;
         },
 
+        // Log the first name of the person in the selected language
         log: function() {
             if(console) {
                 console.log(`${logMessages[this.language]}: ${this.fullName()}`);
